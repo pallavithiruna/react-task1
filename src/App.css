@@ -1,38 +1,58 @@
-.App {
+.main{
+  height: 620px;
+  width:95%;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  margin:70px;
+  padding:10px;
+  display:flex;
+  flex-direction: row;
+}
+.card{
+  background-color: rgb(231, 238, 238);
+  width:30%;
+  border-radius: 12px;
+  margin:13px;
+  padding:8px;
+
+}
+p{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li{
+  list-style-type: none;
+  font-size: 16px;
+  margin:20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn{
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+    width:400px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dollar{
+  font-weight: 600;
+  font-size: 40px;
 }
-
-.App-link {
-  color: #61dafb;
+.head{
+  text-opacity: 1;
+    color: #6c757d!important;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    text-align: center!important;
+    text-transform: uppercase!important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card:hover{
+  margin-top:2px;
+}
+.btn:hover{
+  cursor: pointer;
 }
